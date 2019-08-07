@@ -136,7 +136,47 @@ nav {
 }
 
 main {
+  width: 610px;
   grid-area: main;
+  display: flex;
+  flex-direction: column;
+  margin-left: 172px;
+}
+
+#time {
+  margin: 20px 0 0 14px;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.element {
+  margin-top: 20px;
+  line-height: 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+.result-link a {
+  text-decoration: none;
+  color: rgb(0, 38, 104);
+}
+
+.result-link a:hover > .underline {
+  text-decoration: underline;
+}
+
+.green {
+  color: rgb(32, 121, 32);
+}
+
+.font18 {
+  font-size: 18px;
+}
+
+.result-info {
+  line-height: 18px;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.7);
 }
 
 footer {
