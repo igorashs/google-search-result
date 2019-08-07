@@ -9,3 +9,135 @@ body {
     'main'
     'footer';
 }
+
+nav {
+  grid-area: nav;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 13px;
+  border-bottom: 1px solid rgba(219, 219, 219, 0.5);
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 84px;
+}
+
+.search-container .logo {
+  width: 92px;
+  margin: 0 30px 0 20px;
+  place-self: center;
+}
+
+.search-bar {
+  background-image: url('img/micro.png');
+  background-repeat: no-repeat;
+  background-position: 85%;
+  background-size: 14px;
+
+  padding: 0 120px 0 20px;
+
+  border-radius: 30px;
+  border: 1px solid lightgray;
+  width: 500px;
+  height: 43px;
+}
+
+.search-bar:hover {
+  box-shadow: 0px 0px 6px 1px rgba(189, 189, 189, 1);
+}
+
+#search-btn {
+  position: relative;
+  left: -90px;
+  padding: 8px 12px;
+  background-color: transparent;
+  border: none;
+  border-radius: 32px;
+  color: rgb(53, 111, 211);
+}
+
+#search-btn:hover {
+  background-color: rgba(53, 111, 211, 0.2);
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+}
+
+.nav-list li input {
+  border: 0;
+  border-radius: 3px;
+  width: 75px;
+  height: 30px;
+  color: white;
+  background-color: rgb(67, 134, 250);
+  margin: 0 36px 0 20px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.menu {
+  justify-content: space-between;
+  width: 620px;
+  display: flex;
+  margin-left: 160px;
+}
+
+.menu ul {
+  display: flex;
+}
+
+.menu ul li a {
+  margin-right: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  font-size: 14px;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.6);
+}
+.menu ul li a:hover {
+  color: rgb(53, 111, 211);
+}
+#tools-btn-container {
+  position: relative;
+  width: 50px;
+}
+
+#tools-btn {
+  padding: 6px 10px;
+  font-family: 'Times New Roman', Times, serif;
+  color: rgba(0, 0, 0, 0.6);
+  border: 1px solid transparent;
+  font-size: 14px;
+  text-decoration: none;
+  background-color: transparent;
+  position: absolute;
+  top: -5px;
+}
+
+#tools-btn:hover {
+  background-color: rgb(236, 236, 236);
+  border: 1px solid rgb(199, 199, 199);
+}
+
+#all-op {
+  color: rgb(53, 111, 211);
+  border-bottom: 3px solid rgb(53, 111, 211);
+}
+#all-op img {
+  padding-left: 10px;
+  width: 16px;
+  height: 16px;
+}
+
+main {
+  grid-area: main;
+}
+
+footer {
+  grid-area: footer;
+}

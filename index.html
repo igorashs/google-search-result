@@ -10,45 +10,59 @@
   </head>
   <body>
     <nav>
-      <div class="search-bar-container">
-        <img
-          src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png"
-          alt="Google logo"
-        />
-        <!-- TODO find How to put a link|text along side with icon in input? -->
-        <input class="search-bar" type="search" name="search" id="search" />
-
-        <ul class="nav-list">
-          <li><img src="grid.png" alt="grid" /></li>
-          <li><input type="button" value="Sign in" /></li>
-        </ul>
+      <div class="search-container">
+        <div class="search-bar-container">
+          <img
+            class="logo"
+            src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png"
+            alt="Google logo"
+          />
+          <input
+            class="search-bar"
+            type="search"
+            name="search"
+            id="search"
+            value="build this webpage"
+          />
+          <button id="search-btn">Search</button>
+        </div>
+        <div class="nav-list-container">
+          <ul class="nav-list">
+            <li>
+              <a href="#"> <img src="img/grid.png" alt="grid"/></a>
+            </li>
+            <li><input type="button" value="Sign in" /></li>
+          </ul>
+        </div>
       </div>
 
       <div class="menu">
         <ul class="options">
           <li>
-            <a href="#"><img src="" alt="" />All</a>
+            <a id="all-op" href="#"> <img src="img/search.svg" alt="" /> All</a>
           </li>
           <li>
-            <a href="#"><img src="" alt="" />Videos</a>
+            <a href="#">Videos</a>
           </li>
           <li>
-            <a href="#"><img src="" alt="" />Images</a>
+            <a href="#">Images</a>
           </li>
           <li>
-            <a href="#"><img src="" alt="" />News</a>
+            <a href="#">News</a>
           </li>
           <li>
-            <a href="#"><img src="" alt="" />More</a>
+            <a href="#">More</a>
           </li>
         </ul>
         <ul class="setting">
           <li><a href="#">Settings</a></li>
-          <li><a href="#">Tools</a></li>
+          <li id="tools-btn-container">
+            <button id="tools-btn">Tools</button>
+          </li>
         </ul>
       </div>
     </nav>
-
+    <!-- 
     <main>
       <p>About 109,000,000 results (0.30 seconds)</p>
       <div class="element">
@@ -167,7 +181,7 @@
           search in mind. Within this book I'm going to show you how to build
           your own ...
         </p>
-        <!-- TODO: sprite image! remake list with multiple images -->
+        
         <div class="nr-pages-container">
           <div class="pages-list">
             <img src="" alt="G" />
@@ -191,8 +205,9 @@
           </div>
         </div>
       </div>
-    </main>
+    </main> -->
     <!-- TODO change elements -->
+    <!--     
     <footer>
       <p>Moldova</p>
       <div class="footer-links">
@@ -209,6 +224,6 @@
           <li><a href="#">Settings</a></li>
         </ul>
       </div>
-    </footer>
+    </footer> -->
   </body>
 </html>
