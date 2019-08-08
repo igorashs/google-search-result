@@ -207,9 +207,26 @@ main {
   flex-direction: column;
   align-items: center;
 }
+
+.page-list li a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .next-page {
   display: flex;
   flex-direction: column;
+}
+
+.next-page a {
+  display: flex;
+  flex-direction: column;
+}
+
+.next-page a span {
+  transform: translatey(-10px);
+  align-self: flex-end;
 }
 
 .g-container {
@@ -239,11 +256,6 @@ main {
   width: 71px;
   height: 36px;
   margin-bottom: 8px;
-}
-
-.next-page a {
-  transform: translatey(-10px);
-  align-self: flex-end;
 }
 
 footer {
