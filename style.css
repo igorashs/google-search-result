@@ -284,7 +284,7 @@ footer {
 }
 
 .city {
-  padding-left: 12px;
+  padding-left: 4px;
 }
 
 .bold {
@@ -293,7 +293,8 @@ footer {
 }
 
 #circle {
-  margin-right: 4px;
+  display: inline-block;
+  margin-left: 12px;
   width: 7px;
   height: 7px;
   background-color: rgb(165, 165, 165);
@@ -321,4 +322,51 @@ footer {
 
 .left li a:hover {
   color: rgba(0, 0, 0, 0.8);
+}
+
+.people-ask-container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgba(165, 165, 165, 0.4);
+  border-radius: 10px;
+  width: 640px;
+  align-self: center;
+}
+.people-ask-container a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.people-ask-container h2 {
+  padding: 12px;
+  font-size: 18px;
+  color: rgb(134, 134, 134);
+}
+
+.qs-container {
+  padding: 12px;
+  font-size: 16px;
+  border-top: 1px solid rgba(165, 165, 165, 0.4);
+  display: flex;
+  justify-content: space-between;
+}
+
+.arrow {
+  background: url('imgs/arrow.png') no-repeat;
+  background-size: 50%;
+  width: 24px;
+}
+
+.feedback {
+  padding-top: 4px;
+  font-style: italic;
+  font-size: 14px;
+  align-self: flex-end;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.feedback:hover {
+  text-decoration: underline;
 }
